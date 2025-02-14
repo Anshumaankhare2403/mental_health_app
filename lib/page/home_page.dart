@@ -177,7 +177,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             Container(
-              height: 440,
+              height: 445,
               decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
