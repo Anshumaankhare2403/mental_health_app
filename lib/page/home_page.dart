@@ -122,10 +122,67 @@ class _HomePageState extends State<HomePage> {
                               fontSize: 35),
                         )
                       ],
-                    )
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Row(
+                      children: [
+                        Container(
+                          height: 90,
+                          width: 90,
+                          margin: EdgeInsets.all(5),
+                          decoration: BoxDecoration(
+                              color: const Color.fromARGB(255, 255, 255, 255)
+                                  .withOpacity(0.13),
+                              borderRadius: BorderRadius.circular(18)),
+                          child: Icon(
+                            CupertinoIcons.bell_solid, // Cupertino icon
+                            size: 30,
+                            color: Colors.white,
+                          ),
+                        ),
+                        Container(
+                          height: 90,
+                          width: 90,
+                          margin: EdgeInsets.all(5),
+                          decoration: BoxDecoration(
+                              color: const Color.fromARGB(255, 255, 255, 255)
+                                  .withOpacity(0.13),
+                              borderRadius: BorderRadius.circular(18)),
+                          child: Icon(
+                            CupertinoIcons.bell_solid, // Cupertino icon
+                            size: 30,
+                            color: Colors.white,
+                          ),
+                        ),
+                        Container(
+                          height: 90,
+                          width: 90,
+                          margin: EdgeInsets.all(5),
+                          decoration: BoxDecoration(
+                              color: const Color.fromARGB(255, 255, 255, 255)
+                                  .withOpacity(0.13),
+                              borderRadius: BorderRadius.circular(18)),
+                          child: Icon(
+                            CupertinoIcons.bell_solid, // Cupertino icon
+                            size: 30,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ],
+                    ),
                   ],
                 ),
               ),
+            ),
+            Container(
+              height: 440,
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(20),
+                      topRight: Radius.circular(20))),
             )
           ],
         )));
